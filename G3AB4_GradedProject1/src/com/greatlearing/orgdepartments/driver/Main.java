@@ -12,10 +12,10 @@ public class Main {
 		TechDepartment tech = new TechDepartment();
 		
 		System.out.println("Welcome To " + admin.departmentName());
-     	System.out.println(admin.getTodaysWork());
-     	System.out.println(admin.getWorkDeadline());  
-	    System.out.println(admin.isTodayAHoliday());
-    	System.out.println();
+     		System.out.println(admin.getTodaysWork());
+     		System.out.println(admin.getWorkDeadline());  
+	    	System.out.println(admin.isTodayAHoliday());
+    		System.out.println();
     	
 		System.out.println("Welcome To " + hr.departmentName());
 		System.out.println(hr.doActivity());
